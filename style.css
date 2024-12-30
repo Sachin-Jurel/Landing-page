@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1645887088673-15a1f18eb393?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aXBob25lJTIwMTMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: 1000px;
+}
+
+.nbr {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -18px;
+}
+.logo{
+    padding-right: 200px;
+}
+.logo img{
+    height: 50px;
+}
+.options a {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-family: cursive;
+    color: antiquewhite;
+}
+
+.nbr button{
+    border-radius: 9px;
+    background-color: red;
+    font-family: fantasy;
+    border-width: 0.1px;
+    cursor: pointer;
+}
+
+.search{
+    margin-top: 140px;
+    margin-left: 300px;
+    margin-right: 400px;
+    text-align: center;
+}
+
+p{
+    color: darkgray;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+span{
+    font-size: 20px;
+    font-family: cursive;
+    color: orangered;
+}
+
+.search input{
+    background-color:rgb(216, 199, 249);
+    border-radius: 8px;
+    border-color: white;
+}
+
+.search button{
+    border-radius: 7px;
+    color: black;
+    background-color: red;
+    border-width: 0.1px;
+    margin-top: 2px;
+}
